@@ -577,6 +577,7 @@ aside { background-color: gainsboro;
         right: 4%;
         display: flex;
         font-size: small;
+        
     }
 
     #logo h2 {
@@ -586,6 +587,18 @@ aside { background-color: gainsboro;
     aside {
         
         width: 97%;
+    }
+    nav a:hover
+    {
+    color: #0065FC;
+    border-bottom: 2px solid #0065FC;
+    padding-bottom: 0.2rem;
+    border-top: 0px solid #0065FC;
+    }
+
+    nav a{
+        border-bottom: 2px solid #ededed;
+        margin-right: 94px;
     }
 }
 
@@ -605,6 +618,38 @@ aside { background-color: gainsboro;
         right: 4%;
         display: flex;
         font-size: small;
+        width: 100%;
     }
     
+}
+
+@media all and (max-width: 450px){
+
+.inscription a {
+    position: absolute;
+    top: -4rem;
+    left: 22rem;
+    border: 0px;
+    color: #0065FC;
+    padding-right: 2rem;
+    }
+
+    nav a{
+        border-bottom: 0px solid #ededed;
+        margin-right: 94px;
+        margin-left: 1.5rem;
+    }
+
+    nav ul{
+        border-bottom: 2px solid #ededed;
+        padding-bottom: 10px;
+        position: relative;
+        bottom: 11rem;
+        right: 0%;
+        
+    }
+
+    #logo h2 {
+        margin-top: 6rem;
+    }
 }
