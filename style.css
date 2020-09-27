@@ -323,7 +323,7 @@ aside { background-color: gainsboro;
     background-color: #ededed;
     border-radius: 1rem;
     padding: 15px;
-    width: 25.5%;
+    width: 21%;
     margin-right: 3rem;
     
 }
@@ -660,7 +660,7 @@ aside { background-color: gainsboro;
         margin-right: 94px;
     }
 
-    aside {width: 100%;
+    aside {
         margin-bottom: 3rem;
         border-radius: 0;
     }
@@ -1100,7 +1100,7 @@ aside { background-color: gainsboro;
         float: left;
     }
 
-    aside {width: 100%;
+    aside {
         margin-bottom: 3rem;
         border-radius: 0;
     }
