@@ -17,6 +17,7 @@ body
 } 
 
 header {
+    
     padding-left: 2rem;
 }
 
@@ -645,7 +646,7 @@ aside { background-color: gainsboro;
 
     aside {
         
-        width: 97%;
+        width: 100%;
     }
     nav a:hover
     {
@@ -658,6 +659,10 @@ aside { background-color: gainsboro;
     nav a{
         border-bottom: 2px solid #ededed;
         margin-right: 94px;
+    }
+
+    #section1 {
+        width: 100%;
     }
 
     aside {
@@ -699,7 +704,7 @@ aside { background-color: gainsboro;
     }
 
     #footer {
-        width: 107%;
+        width: 101%;
         margin: 0;
         padding: 0;
         margin-top: 8rem;
