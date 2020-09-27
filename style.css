@@ -211,6 +211,16 @@ nav a:hover
     padding: 1%;
      }
 
+ .fa-star:before {
+        content: "\f005";
+        color: #0065FC;
+    }
+
+.fa-starvide:before {
+    content: "\f005";
+    color: #ededed;
+}
+
 #marseille h4 {
     width: 100%;
     margin: auto;
@@ -731,7 +741,7 @@ aside { background-color: gainsboro;
     }
 
     #footer {
-        width: 100%;
+        width: 107%;
         margin: 0;
         padding: 0;
         margin-top: 8rem;
