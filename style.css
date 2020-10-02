@@ -646,7 +646,8 @@ aside { background-color: gainsboro;
 
     aside {
         
-        width: 100%;
+        width: 118%;
+        border-radius: 0;
     }
     nav a:hover
     {
@@ -665,10 +666,7 @@ aside { background-color: gainsboro;
         width: 100%;
     }
 
-    aside {
-        margin-bottom: 3rem;
-        border-radius: 0;
-    }
+  
     aside h4{
         font-size: 25px;
     }
