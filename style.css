@@ -62,6 +62,7 @@ h3 {
     margin-top: 3rem;
     margin-bottom: 3rem;
     flex-wrap: wrap;
+    width: 64rem;
 }
 #filtre p {margin: auto; margin-right: 15px;}
 #filtre a {
@@ -618,17 +619,18 @@ aside { background-color: gainsboro;
     }
 
     #marseille {
-        width: 98%;
+        width: 64rem;
         flex-direction: column;
         margin-top: 2rem;
     }
 
     #section3 {
         flex-direction: column;
+        margin-left: 7rem;
     }
 
     #footer {
-        flex-direction: column;
+        
     }
     nav ul {
         list-style-type: none;
@@ -723,9 +725,7 @@ aside { background-color: gainsboro;
         padding-left: 0rem;
     }
 
-    #marseille {
-        width: 100%;
-    }
+  
 
     #marseille h4 {
         font-size: 30px;
@@ -846,7 +846,7 @@ aside { background-color: gainsboro;
     }
 
     #Bloc1 {
-        width: 100%;
+        width: 52rem;
         
     }
 
@@ -909,7 +909,8 @@ aside { background-color: gainsboro;
     }
 
     #Bloc2{
-        width: 100%;
+        
+        width: 52rem;
         
     }
 
@@ -975,10 +976,7 @@ aside { background-color: gainsboro;
 
 @media all and (max-width: 896px){
 
-    #filtre4{
-        margin-top: 2.5rem;
-        margin-left: 4rem;
-    }
+    
 }
 
 
@@ -1055,6 +1053,7 @@ aside { background-color: gainsboro;
     #logo h2 {
         margin-top: 6rem;
         text-align: center;
+        width: 26rem;
     }
 
     #logo p {
@@ -1148,6 +1147,7 @@ aside { background-color: gainsboro;
         padding: 0;
         margin-top: 8rem;
         padding-top: 3rem;
+        flex-direction: column;
     }
 
     .column1 {
@@ -1165,7 +1165,7 @@ aside { background-color: gainsboro;
     }
 
     #marseille {
-        width: 100%;
+        width: 29rem;
     }
 
     #marseille h4 {
@@ -1287,7 +1287,7 @@ aside { background-color: gainsboro;
     }
 
     #Bloc1 {
-        width: 100%;
+        width: 15.5rem;
         
     }
 
@@ -1350,7 +1350,7 @@ aside { background-color: gainsboro;
     }
 
     #Bloc2{
-        width: 100%;
+        width: 15.5rem;
         
     }
 
@@ -1444,6 +1444,7 @@ aside { background-color: gainsboro;
     
     #filtre2{
         margin-top: 4rem;
+    margin-left: 1rem;
     }
 
     #filtre3 {
@@ -1472,6 +1473,70 @@ aside { background-color: gainsboro;
     #filtre4 {
         position: relative;
         left: -5rem;
-        margin-left: 5rem;
+        margin-left: 4rem;
     }
+}
+
+@media all and (max-width: 356px){
+
+    
+ 
+
+    #logo h2 {
+        
+        position: relative;
+        top: 0rem;
+        width: 25rem;
+    }
+
+    nav {
+        position: relative;
+        top: -2.5rem;
+        
+    }
+
+    #logo p {
+        margin-left: 5rem;
+        text-align: center;
+    }
+
+    #searchbox {
+        margin-top: -2rem;
+        text-align: center;
+        margin-left: 4rem;
+        width: 19rem;
+    }
+    #filtre4 {
+        position: relative;
+        left: -3rem;
+        margin-left: 4rem;
+    }
+
+    #filtre1 {
+        position: relative;
+        left: 1rem;
+    }
+}
+@media all and (max-width: 342px){
+
+    nav {
+        position: relative;
+        top: -4.5rem;
+    }
+
+}
+@media all and (max-width: 336px){
+#filtre4 {
+    position: relative;
+    left: -2rem;
+    margin-left: 3rem;
+}
+}
+
+@media all and (max-width: 320px){
+#filtre4 {
+    position: relative;
+    left: -1rem;
+    margin-left: 2rem;
+}
 }
