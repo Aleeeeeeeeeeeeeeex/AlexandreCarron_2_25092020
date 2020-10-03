@@ -230,7 +230,7 @@ nav a:hover
     padding-bottom: 0.4rem;
     padding-top: 0.5rem;}
 
-#hebergement {
+.hebergement {
     background-color: white;
     padding: 4px;
     border-radius: 18px;
@@ -600,7 +600,7 @@ aside { background-color: gainsboro;
 
   @media all and (max-width: 1216px){
 
-    #hebergement {
+    .hebergement {
         margin-top: 1rem;
     }
 
@@ -758,7 +758,7 @@ aside { background-color: gainsboro;
         padding-left: 1rem;
     }
 
-    #hebergement{
+    .hebergement{
         margin-bottom: 1rem;
         box-shadow: 4px 5px 1px #ededed
         ;
@@ -1175,7 +1175,7 @@ aside { background-color: gainsboro;
         padding-left: 1rem;
     }
 
-    #hebergement{
+    .hebergement{
         margin-bottom: 1rem;
         box-shadow: 4px 5px 1px #ededed
         ;
