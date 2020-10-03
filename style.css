@@ -300,7 +300,7 @@ nav a:hover
 
 
 
-#textevignette {
+.textevignette {
     font-size: small;
     padding-left: 1rem;
     
@@ -753,7 +753,7 @@ aside { background-color: gainsboro;
 
     }
 
-    #textevignette {
+    .textevignette {
         font-size: 21px;
         padding-left: 1rem;
     }
@@ -1170,7 +1170,7 @@ aside { background-color: gainsboro;
 
     }
 
-    #textevignette {
+    .textevignette {
         font-size: 21px;
         padding-left: 1rem;
     }
