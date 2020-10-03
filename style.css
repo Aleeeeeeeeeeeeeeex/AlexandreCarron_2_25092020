@@ -331,7 +331,7 @@ aside { background-color: gainsboro;
     
 }
 
-#vignette_aside {
+.vignette_aside {
     background-color: white;
     margin-bottom: 2rem;
     display: flex;
@@ -340,7 +340,7 @@ aside { background-color: gainsboro;
     padding: 4px;
 
 }
-#vignette_aside img {
+.vignette_aside img {
     width: 10rem;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
@@ -374,7 +374,7 @@ aside { background-color: gainsboro;
     border-bottom-left-radius: 1rem;
 }
 
-#texteaside {
+.texteaside {
     padding-left: 1rem;
     font-size: small;
 }
@@ -410,7 +410,7 @@ aside { background-color: gainsboro;
     
 }
 
-#sousbloc1 {
+.sousbloc1 {
     flex-wrap: wrap;
     display: flex;
   flex-direction: column;
@@ -503,7 +503,7 @@ aside { background-color: gainsboro;
 }
 
 
-#title1 {
+.title1 {
     position: relative;
     top:21rem;
     border-bottom-left-radius: 1rem;
@@ -513,7 +513,7 @@ aside { background-color: gainsboro;
     flex-wrap: wrap;
 }
 
-#title1 p {padding: 20px;}
+.title1 p {padding: 20px;}
 
 #title2 {
     position: relative;
@@ -680,7 +680,7 @@ aside { background-color: gainsboro;
 
 
 
-    #texteaside{
+    .texteaside{
         font-size: 21px;
         
     }
@@ -858,7 +858,7 @@ aside { background-color: gainsboro;
     }
 
 
-    #title1 {
+    .title1 {
         width: 25rem;
         position: relative;
         top: 9rem;
@@ -1094,7 +1094,7 @@ aside { background-color: gainsboro;
 
 
 
-    #texteaside{
+    .texteaside{
         font-size: 21px;
         
     }
@@ -1275,7 +1275,7 @@ aside { background-color: gainsboro;
     }
 
 
-    #title1 {
+    .title1 {
         width: 25rem;
         position: relative;
         top: 9rem;
