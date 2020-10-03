@@ -63,6 +63,7 @@ h3 {
     margin-bottom: 3rem;
     flex-wrap: wrap;
     width: 64rem;
+    
 }
 #filtre p {margin: auto; margin-right: 15px;}
 #filtre a {
@@ -629,10 +630,8 @@ aside { background-color: gainsboro;
         margin-left: 7rem;
     }
 
-    #footer {
-        
-    }
     nav ul {
+        
         list-style-type: none;
         position: relative;
         bottom: 8rem;
@@ -644,6 +643,7 @@ aside { background-color: gainsboro;
 
     #logo h2 {
         margin-top: 4rem;
+        width: 51rem;
     }
 
     aside {
@@ -967,45 +967,9 @@ aside { background-color: gainsboro;
         position: relative;
         top: 4.5rem;
     }
-
-
-
-
     
 }
 
-@media all and (max-width: 896px){
-
-    
-}
-
-
-@media all and (max-width: 651px){
-    #filtre3{
-        
-            position: relative;
-            top: 2.5rem;
-            left: 4rem;
-        
-    }
-    
-}
-
-@media all and (max-width: 531px){
-    #filtre4{
-        
-            position: relative;
-            top: 2.5rem;
-            left: 0rem;
-        
-    }
-
-    #info {
-        position: relative;
-        top: 1rem;
-    }
-    
-}
 
 @media all and (max-width: 666px){
     nav ul {
@@ -1017,8 +981,14 @@ aside { background-color: gainsboro;
         font-size: small;
         width: 100%;
     }
+
+    nav {
+            position: relative;
+            top: 1.5rem;
+        }
+    }
     
-}
+
 
 @media all and (max-width: 457px){
     
@@ -1035,6 +1005,12 @@ aside { background-color: gainsboro;
     padding-right: 2rem;
     }
 
+    nav {
+        position: relative;
+        top: 0.5rem;
+    }
+    
+
     nav a{
         border-bottom: 0px solid #ededed;
         margin-right: 94px;
@@ -1042,6 +1018,7 @@ aside { background-color: gainsboro;
     }
 
     nav ul{
+        width: 28rem;
         border-bottom: 2px solid #ededed;
         padding-bottom: 10px;
         position: relative;
@@ -1057,10 +1034,12 @@ aside { background-color: gainsboro;
     }
 
     #logo p {
+        width: 27rem;
         text-align: center;
     }
 
     #searchbox{
+        width: 28rem;
         margin-top: -2rem;
         text-align: center;
     }
@@ -1070,31 +1049,28 @@ aside { background-color: gainsboro;
         margin-bottom: 1.7rem;
     }
 
-    #filtre2{
-        margin-top: 2rem;
-        position: relative;
-        left: 0rem;
-        top: -2rem;
+    #filtre {
+        width: 30rem;
     }
 
     #filtre3 {
-        margin-top: -2.5rem;
-        margin-left: -4rem;
+        margin-top: 2.5rem;
+      
     }
 
     #filtre4 {
         
-    margin: 0;
-    position: relative;
-    top: 3rem;
-    left: -8rem;
+        
+        position: relative;
+        top: 6rem;
+        left: -12rem;
 
     }
 
     #info {
         font-size: 18px;
-
-    margin-top: 5rem;
+        width: 23rem;
+    margin-top: 7rem;
 
     }
 
@@ -1103,7 +1079,7 @@ aside { background-color: gainsboro;
     }
 
     aside {
-        width: 29rem;
+        width: 31.5rem;
         margin-bottom: 3rem;
         border-radius: 0;
     }
@@ -1142,7 +1118,7 @@ aside { background-color: gainsboro;
     }
 
     #footer {
-        width: 31rem;
+        width: 33rem;
         margin: 0;
         padding: 0;
         margin-top: 8rem;
@@ -1409,134 +1385,4 @@ aside { background-color: gainsboro;
     }
 
 
-}
-
-@media all and (max-width: 457px){
-
-    #filtre2{
-        margin-top: 2rem;
-    }
-    #filtre4{
-        margin:0;
-    }
-}
-
-@media all and (max-width: 403px){
-
-    
-    #filtre4{
-        margin-left: 8rem;
-    }
-}
-
-@media all and (max-width: 401px){
-
-    
-    #filtre4{
-        position: relative;
-    left: -7rem;
-    margin-left: 7rem;
-    }
-}
-
-@media all and (max-width: 401px){
-
-    
-    #filtre2{
-        margin-top: 4rem;
-    margin-left: 1rem;
-    }
-
-    #filtre3 {
-        margin-top: 2.5rem;
-        margin-left: -14rem;
-    }
-}
-
-@media all and (max-width: 385px){
-
-    
- 
-
-    #filtre4 {
-        position: relative;
-    left: -6rem;
-    margin-left: 6rem;
-    }
-}
-
-@media all and (max-width: 369px){
-
-    
- 
-
-    #filtre4 {
-        position: relative;
-        left: -5rem;
-        margin-left: 4rem;
-    }
-}
-
-@media all and (max-width: 356px){
-
-    
- 
-
-    #logo h2 {
-        
-        position: relative;
-        top: 0rem;
-        width: 25rem;
-    }
-
-    nav {
-        position: relative;
-        top: -2.5rem;
-        
-    }
-
-    #logo p {
-        margin-left: 5rem;
-        text-align: center;
-    }
-
-    #searchbox {
-        margin-top: -2rem;
-        text-align: center;
-        margin-left: 4rem;
-        width: 19rem;
-    }
-    #filtre4 {
-        position: relative;
-        left: -3rem;
-        margin-left: 4rem;
-    }
-
-    #filtre1 {
-        position: relative;
-        left: 1rem;
-    }
-}
-@media all and (max-width: 342px){
-
-    nav {
-        position: relative;
-        top: -4.5rem;
-    }
-
-}
-@media all and (max-width: 336px){
-#filtre4 {
-    position: relative;
-    left: -2rem;
-    margin-left: 3rem;
-}
-}
-
-@media all and (max-width: 320px){
-#filtre4 {
-    position: relative;
-    left: -1rem;
-    margin-left: 2rem;
-}
 }
