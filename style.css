@@ -7,23 +7,23 @@ html, body {
     margin:0;
     padding:0;
     width: 100%;
-    height: 100%;
+    font-family: 'Raleway', Arial, sans-serif;
     overflow-x: hidden;
+    
     }
 
-#bloc_page
-{
-    width: 90%;
-    margin: auto;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 3%;
+header {
+    
+    padding-left: 1rem;
 }
 
-body
-{
-    font-family: 'Raleway', Arial, sans-serif;
-} 
+section {
+    padding-left: 2rem;
+}
+
+h3 {
+    padding-left: 2rem;
+}
 
 #button-submit {
     color: white;
@@ -58,6 +58,8 @@ body
     margin-top: 3rem;
     margin-bottom: 3rem;
     flex-wrap: wrap;
+    width: 100%;
+    
 }
 #filtre p {margin: auto; margin-right: 15px;}
 #filtre a {
@@ -200,13 +202,23 @@ nav a:hover
 #marseille {
     background-color: #ededed;
     border-radius: 1rem;
-    margin-right: 3rem;
+    padding-left: 15px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 65%;
-    padding: 1%;
+    
+    
      }
+
+ .fa-star:before {
+        content: "\f005";
+        color: #0065FC;
+    }
+
+.fa-starvide:before {
+    content: "\f005";
+    color: #ededed;
+}
 
 #marseille h4 {
     width: 100%;
@@ -214,9 +226,9 @@ nav a:hover
     padding-bottom: 0.4rem;
     padding-top: 0.5rem;}
 
-#hebergement {
+.hebergement {
     background-color: white;
-    padding: 4px;
+    
     border-radius: 18px;
     height: 12rem;
 }
@@ -284,7 +296,7 @@ nav a:hover
 
 
 
-#textevignette {
+.textevignette {
     font-size: small;
     padding-left: 1rem;
     
@@ -306,16 +318,19 @@ nav a:hover
     border-top-right-radius: 1rem;
 }
 
-aside { background-color: gainsboro;
+aside { 
     background-color: #ededed;
     border-radius: 1rem;
     padding: 15px;
-    width: 27.5%;
-
+    width: 50%;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    
+    
     
 }
 
-#vignette_aside {
+.vignette_aside {
     background-color: white;
     margin-bottom: 2rem;
     display: flex;
@@ -324,7 +339,7 @@ aside { background-color: gainsboro;
     padding: 4px;
 
 }
-#vignette_aside img {
+.vignette_aside img {
     width: 10rem;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
@@ -358,7 +373,7 @@ aside { background-color: gainsboro;
     border-bottom-left-radius: 1rem;
 }
 
-#texteaside {
+.texteaside {
     padding-left: 1rem;
     font-size: small;
 }
@@ -394,7 +409,7 @@ aside { background-color: gainsboro;
     
 }
 
-#sousbloc1 {
+.sousbloc1 {
     flex-wrap: wrap;
     display: flex;
   flex-direction: column;
@@ -424,7 +439,7 @@ aside { background-color: gainsboro;
 #act2 {
     background-size: cover;
     width: 19rem;
-    height: 8rem;
+    height: 11rem;
     background-image: url(images/activites/4_small/iledufrioul.jpg);
     flex-wrap: wrap;
     
@@ -438,7 +453,7 @@ aside { background-color: gainsboro;
 #act3 {
     background-size: cover;
     width: 19rem;
-    height: 9rem;
+    height: 6.5rem;
     background-image: url(images/activites/4_small/fort.jpg);
     background-position-y: center;
     
@@ -463,7 +478,7 @@ aside { background-color: gainsboro;
 #act5 {
     background-size: cover;
     width: 19rem;
-    height: 8rem;
+    height: 6.5rem;
     background-image: url(images/activites/4_small/notredame.jpg);
     flex-wrap: wrap;
     
@@ -477,7 +492,7 @@ aside { background-color: gainsboro;
 #act6 {
     background-size: cover;
     width: 19rem;
-    height: 9rem;
+    height: 11rem;
     background-image: url(images/activites/4_small/longchamps.jpg);
     flex-wrap: wrap;
     border-top-left-radius: 1rem;
@@ -487,7 +502,7 @@ aside { background-color: gainsboro;
 }
 
 
-#title1 {
+.title1 {
     position: relative;
     top:21rem;
     border-bottom-left-radius: 1rem;
@@ -497,11 +512,11 @@ aside { background-color: gainsboro;
     flex-wrap: wrap;
 }
 
-#title1 p {padding: 20px;}
+.title1 p {padding: 20px;}
 
 #title2 {
     position: relative;
-    top:5.5rem;
+    top:8.5rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: 0px 1px 1px grey;
@@ -515,7 +530,7 @@ aside { background-color: gainsboro;
 
 #title3 {
     position: relative;
-    top:3rem;
+    top:0rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     box-shadow: 0px 1px 1px grey;
@@ -526,10 +541,37 @@ aside { background-color: gainsboro;
 
 #title3 p {padding: 20px;}
 
+#title5 {
+    position: relative;
+    top:4.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0px 1px 1px grey;
+    width: 19rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    
+}
+
+#title5 p {padding: 20px;}
+
+#title6 {
+    position: relative;
+    top:4.5rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0px 1px 1px grey;
+    width: 19rem;
+    margin-top: 6rem;
+    flex-wrap: wrap;
+}
+
+#title6 p {padding: 20px;}
+
 
 
 #footer {
-    background-color:#ededed; display: flex; margin-top: 7rem; width: 95%;
+    background-color:#ededed; display: flex; margin-top: 7rem; width: 100%;
     padding-left: 5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -547,8 +589,34 @@ aside { background-color: gainsboro;
     flex: 1 1 auto;
   }
 
+  @media all and (max-width: 1245px){
+
+    #act5,#act2 {
+        margin-top: 5.5rem;
+    }
+
+  }
+
+  @media all and (max-width: 1216px){
+
+    .hebergement {
+        margin-top: 1rem;
+    }
+
+  }
+
+
+  @media all and (max-width: 1107px){
+  #marseille h4 {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+  }
+
+
   @media all and (max-width: 1024px)
-{
+  {
     #bloc_page
     {
         width: auto;
@@ -560,14 +628,863 @@ aside { background-color: gainsboro;
     }
 
     #marseille {
+        width: 100%;
         flex-direction: column;
+        margin-top: 2rem;
     }
 
     #section3 {
         flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul {
+        
+        list-style-type: none;
+        position: relative;
+        bottom: 8rem;
+        right: 4%;
+        display: flex;
+        font-size: small;
+        
+    }
+
+    #logo h2 {
+        margin-top: 4rem;
+        
+    }
+
+    aside {
+        
+        width: 100%;
+        border-radius: 0;
+        margin-left: 0px;
+        padding:0px;
+    }
+    nav a:hover
+    {
+    color: #0065FC;
+    border-bottom: 2px solid #0065FC;
+    padding-bottom: 0.2rem;
+    border-top: 0px solid #0065FC;
+    }
+
+    nav a{
+        border-bottom: 2px solid #ededed;
+        margin-right: 94px;
+    }
+
+    #section1 {
+        width: 100%;
+    }
+
+  
+    aside h4{
+        margin-left: 2rem;
+        font-size: 25px;
+    }
+
+    #imageaside {
+        width: 8.8rem;
+    height: 9rem;
+    }
+
+
+
+    .texteaside{
+        font-size: 21px;
+        
+    }
+
+    #imageaside2 {
+        width: 8.8rem;
+    height: 9rem;
+    }
+
+    #texteaside2{
+        font-size: 21px;
+    }
+
+    #imageaside3 {
+        width: 8.8rem;
+    height: 9rem;
+    }
+
+    #texteaside3{
+        font-size: 21px;
     }
 
     #footer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 8rem;
+        padding-top: 3rem;
+    }
+
+    .column1 {
+        padding-left: 4rem;
+    }
+    .column2 {
+        padding-left: 4rem;
+    }
+    .column3 {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    section {
+        padding-left: 0rem;
+    }
+
+  
+
+    #marseille h4 {
+        font-size: 30px;
+        
+        width: 100%;
+        margin: auto;
+        padding-bottom: 2rem;
+        padding-top: 1.5rem;
+    }
+
+    .vignette_aside {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+
+    #imgvignette {
+        
+        width: 25rem;
+        height: 9rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    .textevignette {
+        font-size: 21px;
+        padding-left: 1rem;
+    }
+
+    .hebergement{
+        margin-bottom: 1rem;
+        box-shadow: 4px 5px 1px #ededed
+        ;
+        padding-bottom: 4rem;
+    }
+
+    .petit {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    #imgvignette2 {
+        
+        width: 25rem;
+        height: 9rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    #textevignette2  {
+        font-size: 21px;
+        padding-left: 1rem;
+    }
+
+    #imgvignette3 {
+        
+        width: 25rem;
+        height: 9rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    #textevignette3  {
+        font-size: 21px;
+        padding-left: 1rem;
+    }
+
+    #imgvignette4 {
+        
+        width: 25rem;
+        height: 9rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    #textevignette4  {
+        font-size: 21px;
+        padding-left: 1rem;
+    }
+
+    #imgvignette5 {
+        
+        width: 25rem;
+        height: 9rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    #textevignette5 {
+        font-size: 21px;
+        padding-left: 1rem;
+    }
+
+    #imgvignette6 {
+        
+        width: 25rem;
+        height: 9rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    #textevignette6 {
+        font-size: 21px;
+        padding-left: 1rem;
+    }
+
+    h3 {
+        padding-left: 2rem;
+        font-size: 29px;
+    }
+
+    #Bloc1 {
+        margin: auto;
+        
+    }
+
+    #act1 {
+      
+        width: 25rem;
+        height: 10rem;
+        margin-left: 1.5rem;
+    }
+
+
+    .title1 {
+        width: 25rem;
+        position: relative;
+        top: 9rem;
+    }
+
+    #act2 {
+        margin-top: 5rem;
+    }
+
+    #act2 {
+      
+        width: 25rem;
+        height: 10rem;
+        margin-left: 1.5rem;
+    }
+
+
+    #title2 {
+        width: 25rem;
+        position: relative;
+        top: 8.5rem;
+    }
+
+    #act3 {
+        margin-top: 5rem;
+    }
+
+    #act2 {
+        margin-top: 5rem;
+    }
+
+    #act3 {
+      
+        width: 25rem;
+        height: 10rem;
+        margin-left: 1.5rem;
+    }
+
+
+    #title3 {
+        width: 25rem;
+        position: relative;
+        top: 4.5rem;
+    }
+
+    #act4 {
+        margin-top: 5rem;
+    }
+
+    #Bloc2{
+        
+        
+        margin: auto;
+        
+    }
+
+    #act4 {
+      
+        width: 25rem;
+        height: 10rem;
+        margin-left: 1.5rem;
+    }
+
+
+    #title4 {
+        width: 25rem;
+        position: relative;
+        top: 9rem;
+    }
+
+    #act5 {
+        margin-top: 5rem;
+    }
+
+    #act5 {
+      
+        width: 25rem;
+        height: 10rem;
+        margin-left: 1.5rem;
+    }
+
+
+    #title5 {
+        width: 25rem;
+        position: relative;
+        top: 8.5rem;
+    }
+
+    #act6 {
+        margin-top: 5rem;
+    }
+
+    #act6 {
+        margin-top: 5rem;
+    }
+
+    #act6 {
+      
+        width: 25rem;
+        height: 10rem;
+        margin-left: 1.5rem;
+    }
+
+
+    #title6 {
+        width: 25rem;
+        position: relative;
+        top: 4.5rem;
+    }
+
+   
+    
+}
+
+
+
+
+
+
+
+@media all and (max-width: 666px){
+    nav ul {
+        list-style-type: none;
+        position: relative;
+        bottom: 9.5rem;
+        right: 4%;
+        display: flex;
+        font-size: small;
+        width: 100%;
+    }
+
+    }
+@media all and (max-width: 651px){
+        #filtre3{
+        margin-top: 37px;
+        margin-left: 62px;
+    
+        }
+
+        #filtre4{
+            margin-top: 37px;
+            margin-left: 0px;
+        
+            }
+    
+    }
+    
+    @media all and (max-width: 529px){
+        #filtre4{
+        
+        margin-left: 62px;
+    
+        }
+        }
+        @media all and (max-width: 672px){
+            nav ul{
+            position: relative;
+            bottom: 9.5rem;
+            }
+            }
+
+@media all and (max-width: 503px){
+    
+    body { 
+        overflow-x: hidden;
+    }
+
+    h3 {text-align: center;
+    padding-left: 0px;}
+
+    
+
+.inscription a {
+    position: absolute;
+    top: -4rem;
+    left: 59%;
+    border: 0px;
+    color: #0065FC;
+    padding-right: 2rem;
+    }
+
+   
+    
+
+    nav a{
+        border-bottom: 0px solid #ededed;
+        margin-right: 94px;
+        margin-left: 1.5rem;
+    }
+
+    nav ul{
+        
+        border-bottom: 2px solid #ededed;
+        padding-bottom: 10px;
+        position: relative;
+        bottom: 11rem;
+        
+        
+    }
+
+    #logo h2 {
+        margin-top: 6rem;
+        text-align: center;
+        width: 100%;
+        position: relative;
+    left: -12px;
+    }
+
+    #logo p {
+        position: relative;
+        left: -10px;
+        text-align: center;
+    }
+
+    #searchbox{
+        position: relative;
+    left: -5px;
+        margin-top: -2rem;
+        text-align: center;
+    }
+
+    .titlefiltre {
+        width: 100%;
+        margin-bottom: 1.7rem;
+    }
+
+   
+
+    #filtre3{
+        margin-left: 0px;
+    }
+
+    #filtre4 {
+        
+        
+        margin-left: 0px;
+
+    }
+
+    #info {
+        font-size: 18px;
+        
+    
+
+    }
+
+    .fas.fa-info {
+        float: left;
+    }
+
+    aside {
+        
+        
+        border-radius: 0;
+    }
+    aside h4{
+        font-size: 25px;
+    }
+
+    #imageaside {
+        width: 8.8rem;
+    height: 9rem;
+    }
+
+
+
+    .texteaside{
+        font-size: 21px;
+        
+    }
+
+    #imageaside2 {
+        width: 8.8rem;
+    height: 9rem;
+    }
+
+    #texteaside2{
+        font-size: 21px;
+    }
+
+    #imageaside3 {
+        width: 8.8rem;
+    height: 9rem;
+    }
+
+    #texteaside3{
+        font-size: 21px;
+    }
+
+    #footer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 8rem;
+        padding-top: 1rem;
         flex-direction: column;
     }
+
+    .column1 {
+        margin: auto;
+        padding: 0px;
+    }
+    .column2 {
+        width: 210px;
+        margin: auto;
+        padding: 0px;
+    }
+    .column3 {
+        width: 210px;
+        margin: auto;
+        padding: 0px;
+    }
+
+    section {
+        padding-left: 0rem;
+    }
+
+
+
+    #marseille h4 {
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+        margin: auto;
+        padding-bottom: 2rem;
+        padding-top: 1.5rem;
+    }
+
+    #marseille {
+        background-color:#ffffff;
+        padding: 0px;
+    }
+
+    #imgvignette {
+        
+        width: 100%;
+        height: 70%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    .textevignette {
+        font-size: 21px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .hebergement{
+        margin-bottom: 1rem;
+        box-shadow: 4px 5px 1px #ededed
+        ;
+        padding-bottom: 4rem;
+        
+    }
+
+    .petit {
+        font-size: 19px;
+        line-height: 25px;
+    }
+
+    #imgvignette2 {
+        
+        width: 100%;
+        height: 70%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    #textevignette2  {
+        font-size: 21px;
+        padding-left: 1rem;
+    }
+
+    #imgvignette3 {
+        
+        width: 100%;
+    height: 70%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    #textevignette3  {
+        font-size: 21px;
+        padding-left: 1rem;
+    }
+
+    #imgvignette4 {
+        
+        width: 100%;
+    height: 70%; 
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    #textevignette4  {
+        font-size: 21px;
+        padding-left: 1rem;
+    }
+
+    #imgvignette5 {
+        
+        width: 100%;
+    height: 70%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    #textevignette5 {
+        font-size: 21px;
+        padding-left: 1rem;
+    }
+
+    #imgvignette6 {
+        
+        width: 100%;
+        height: 70%;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+
+    }
+
+    #textevignette6 {
+        font-size: 21px;
+        padding-left: 1rem;
+    }
+
+    h3 {
+        
+        font-size: 29px;
+    }
+
+    #Bloc1 {
+        width: 15.5rem;
+        
+    }
+
+    #act1 {
+        margin: auto;
+        width: 17rem;
+        height: 10rem;
+        
+    }
+
+
+    .title1 {
+        width: 17rem;
+        position: relative;
+        top: 9rem;
+    }
+
+    
+
+    #act2 {
+      
+        margin: auto;
+        width: 17rem;
+        height: 10rem;
+        margin-top: 73px;
+    }
+
+
+    #title2 {
+        width: 17rem;
+        position: relative;
+        top: 8.5rem;
+    }
+
+
+
+    #act3 {
+      
+        margin: auto;
+        width: 17rem;
+        height: 10rem;
+        margin-top: 80px;
+    }
+
+
+    #title3 {
+        width: 17rem;
+        position: relative;
+        top: 4.5rem;
+    }
+
+    
+
+    #Bloc2{
+        width: 15.5rem;
+        
+    }
+
+    #act4 {
+      
+        margin: auto;
+        width: 17rem;
+        height: 10rem;
+        margin-top: 80px;
+    }
+
+
+    #title4 {
+        width: 17rem;
+        position: relative;
+        top: 9rem;
+    }
+
+ 
+
+    #act5 {
+      
+        margin: auto;
+        width: 17rem;
+        height: 10rem;
+        margin-top: 73px;
+    }
+
+
+    #title5 {
+        width: 17rem;
+        position: relative;
+        top: 8.5rem;
+    }
+
+
+    #act6 {
+      
+        margin: auto;
+        width: 17rem;
+        height: 10rem;
+        margin-top: 80px;
+    }
+
+
+    #title6 {
+        width: 17rem;
+        position: relative;
+        top: 4.5rem;
+    }
+
+
 }
+
+
+
+@media all and (max-width: 876px){
+    #filtre4{
+    margin-top: 37px;
+    margin-left: 63px;
+    }
+    }
+
+    @media all and (max-width: 414px){
+        nav ul{
+        position: relative;
+        right: 15%;;
+        
+    
+        }
+        }
+    
+        @media all and (max-width: 378px){
+        #filtre2 {
+            margin-top: 36px;
+            margin-right: 5px;
+        }
+    }
+    @media all and (max-width: 414px){
+    nav ul {
+        position: relative;
+        right: 15%;
+    }
+}
+
+@media all and (max-width: 358px){
+    nav ul {
+        position: relative;
+        bottom: 11rem;
+        left: -3rem;
+        width: 114%;
+    }
+}
+
+@media all and (max-width: 342px){
+    nav ul {
+        position: relative;
+        bottom: 13rem;
+        left: -4rem;
+        width: 114%;
+    }
+}
+@media all and (max-width: 651px){
+#filtre4 {
+    margin-top: 37px;
+    margin-left: 0px;
+}
+}
+
+@media all and (max-width: 513px){
+    #filtre4 {
+        margin-top: 37px;
+        margin-left: 63px;
+    }
+    }
+
+    @media all and (max-width: 503px){
+        #filtre4 {
+            margin-top: 37px;
+            margin-left: 0px;
+        }
+        }
+
+
+
+
