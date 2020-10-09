@@ -228,7 +228,7 @@ nav a:hover
 
 .hebergement {
     background-color: white;
-    padding: 4px;
+    
     border-radius: 18px;
     height: 12rem;
 }
@@ -604,16 +604,19 @@ aside {
     }
 
   }
+
+
   @media all and (max-width: 1107px){
   #marseille h4 {
     width: 100%;
     flex-direction: column;
     margin-top: 2rem;
 }
+  }
 
 
   @media all and (max-width: 1024px)
-{
+  {
     #bloc_page
     {
         width: auto;
@@ -727,6 +730,7 @@ aside {
     }
     .column3 {
         padding-left: 4rem;
+        padding-right: 4rem;
     }
 
     section {
@@ -1032,6 +1036,9 @@ aside {
         overflow-x: hidden;
     }
 
+    h3 {text-align: center;
+    padding-left: 0px;}
+
     
 
 .inscription a {
@@ -1066,15 +1073,19 @@ aside {
         margin-top: 6rem;
         text-align: center;
         width: 100%;
+        position: relative;
+    left: -12px;
     }
 
     #logo p {
-        
+        position: relative;
+        left: -10px;
         text-align: center;
     }
 
     #searchbox{
-        
+        position: relative;
+    left: -5px;
         margin-top: -2rem;
         text-align: center;
     }
@@ -1110,7 +1121,7 @@ aside {
 
     aside {
         
-        margin-bottom: 3rem;
+        
         border-radius: 0;
     }
     aside h4{
@@ -1148,7 +1159,7 @@ aside {
     }
 
     #footer {
-        width: 34rem;
+        width: 100%;
         margin: 0;
         padding: 0;
         margin-top: 8rem;
@@ -1157,13 +1168,18 @@ aside {
     }
 
     .column1 {
-        padding-left: 4rem;
+        margin: auto;
+        padding: 0px;
     }
     .column2 {
-        padding-left: 4rem;
+        width: 210px;
+        margin: auto;
+        padding: 0px;
     }
     .column3 {
-        padding-left: 4rem;
+        width: 210px;
+        margin: auto;
+        padding: 0px;
     }
 
     section {
@@ -1174,7 +1190,7 @@ aside {
 
     #marseille h4 {
         font-size: 30px;
-        padding-left: 1rem;
+        text-align: center;
         width: 100%;
         margin: auto;
         padding-bottom: 2rem;
@@ -1206,7 +1222,7 @@ aside {
         box-shadow: 4px 5px 1px #ededed
         ;
         padding-bottom: 4rem;
-        padding-right: 0px;
+        
     }
 
     .petit {
@@ -1285,7 +1301,7 @@ aside {
     }
 
     h3 {
-        padding-left: 2rem;
+        
         font-size: 29px;
     }
 
@@ -1295,10 +1311,10 @@ aside {
     }
 
     #act1 {
-      
+        margin: auto;
         width: 17rem;
         height: 10rem;
-        margin-left: 1.5rem;
+        
     }
 
 
@@ -1308,15 +1324,14 @@ aside {
         top: 9rem;
     }
 
-    #act2 {
-        margin-top: 5rem;
-    }
+    
 
     #act2 {
       
+        margin: auto;
         width: 17rem;
         height: 10rem;
-        margin-left: 1.5rem;
+        margin-top: 73px;
     }
 
 
@@ -1326,19 +1341,14 @@ aside {
         top: 8.5rem;
     }
 
-    #act3 {
-        margin-top: 5rem;
-    }
 
-    #act2 {
-        margin-top: 5rem;
-    }
 
     #act3 {
       
+        margin: auto;
         width: 17rem;
         height: 10rem;
-        margin-left: 1.5rem;
+        margin-top: 80px;
     }
 
 
@@ -1348,9 +1358,7 @@ aside {
         top: 4.5rem;
     }
 
-    #act4 {
-        margin-top: 5rem;
-    }
+    
 
     #Bloc2{
         width: 15.5rem;
@@ -1359,9 +1367,10 @@ aside {
 
     #act4 {
       
+        margin: auto;
         width: 17rem;
         height: 10rem;
-        margin-left: 1.5rem;
+        margin-top: 80px;
     }
 
 
@@ -1371,15 +1380,14 @@ aside {
         top: 9rem;
     }
 
-    #act5 {
-        margin-top: 5rem;
-    }
+ 
 
     #act5 {
       
+        margin: auto;
         width: 17rem;
         height: 10rem;
-        margin-left: 1.5rem;
+        margin-top: 73px;
     }
 
 
@@ -1389,19 +1397,13 @@ aside {
         top: 8.5rem;
     }
 
-    #act6 {
-        margin-top: 5rem;
-    }
-
-    #act6 {
-        margin-top: 5rem;
-    }
 
     #act6 {
       
+        margin: auto;
         width: 17rem;
         height: 10rem;
-        margin-left: 1.5rem;
+        margin-top: 80px;
     }
 
 
@@ -1416,11 +1418,10 @@ aside {
 
 
 
-@media all and (max-width: 892px){
+@media all and (max-width: 876px){
     #filtre4{
     margin-top: 37px;
-    
-
+    margin-left: 63px;
     }
     }
 
@@ -1433,9 +1434,10 @@ aside {
         }
         }
     
-        @media all and (max-width: 394px){
+        @media all and (max-width: 378px){
         #filtre2 {
             margin-top: 36px;
+            margin-right: 5px;
         }
     }
     @media all and (max-width: 414px){
@@ -1462,7 +1464,26 @@ aside {
         width: 114%;
     }
 }
+@media all and (max-width: 651px){
+#filtre4 {
+    margin-top: 37px;
+    margin-left: 0px;
+}
+}
 
+@media all and (max-width: 513px){
+    #filtre4 {
+        margin-top: 37px;
+        margin-left: 63px;
+    }
+    }
+
+    @media all and (max-width: 503px){
+        #filtre4 {
+            margin-top: 37px;
+            margin-left: 0px;
+        }
+        }
 
 
 
