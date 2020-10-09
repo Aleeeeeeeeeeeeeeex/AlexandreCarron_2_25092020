@@ -974,14 +974,11 @@ aside {
         position: relative;
         top: 4.5rem;
     }
+
+   
     
 }
 
-@media all and (max-width: 892px){
-#filtre4 {
-
-}
-}
 
 
 
@@ -999,33 +996,54 @@ aside {
         width: 100%;
     }
 
-    nav {
-            position: relative;
-            top: 1.5rem;
+    }
+@media all and (max-width: 651px){
+        #filtre3{
+        margin-top: 37px;
+        margin-left: 62px;
+    
         }
+
+        #filtre4{
+            margin-top: 37px;
+            margin-left: 0px;
+        
+            }
+    
     }
     
-
-
-@media all and (max-width: 457px){
+    @media all and (max-width: 529px){
+        #filtre4{
+        
+        margin-left: 62px;
     
-    body { overflow-x: hidden;}
+        }
+        }
+        @media all and (max-width: 672px){
+            nav ul{
+            position: relative;
+            bottom: 9.5rem;
+            }
+            }
+
+@media all and (max-width: 503px){
+    
+    body { 
+        overflow-x: hidden;
+    }
 
     
 
 .inscription a {
     position: absolute;
     top: -4rem;
-    left: 20rem;
+    left: 59%;
     border: 0px;
     color: #0065FC;
     padding-right: 2rem;
     }
 
-    nav {
-        position: relative;
-        top: 0.5rem;
-    }
+   
     
 
     nav a{
@@ -1035,28 +1053,28 @@ aside {
     }
 
     nav ul{
-        width: 28rem;
+        
         border-bottom: 2px solid #ededed;
         padding-bottom: 10px;
         position: relative;
         bottom: 11rem;
-        right: 3%;
+        
         
     }
 
     #logo h2 {
         margin-top: 6rem;
         text-align: center;
-        width: 26rem;
+        width: 100%;
     }
 
     #logo p {
-        width: 27rem;
+        
         text-align: center;
     }
 
     #searchbox{
-        width: 28rem;
+        
         margin-top: -2rem;
         text-align: center;
     }
@@ -1066,28 +1084,23 @@ aside {
         margin-bottom: 1.7rem;
     }
 
-    #filtre {
-        width: 30rem;
-    }
+   
 
-    #filtre3 {
-        margin-top: 2.5rem;
-      
+    #filtre3{
+        margin-left: 0px;
     }
 
     #filtre4 {
         
         
-        position: relative;
-        top: 6rem;
-        left: -12rem;
+        margin-left: 0px;
 
     }
 
     #info {
         font-size: 18px;
-        width: 23rem;
-    margin-top: 7rem;
+        
+    
 
     }
 
@@ -1175,8 +1188,8 @@ aside {
 
     #imgvignette {
         
-        width: 25rem;
-        height: 9rem;
+        width: 100%;
+        height: 70%;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
 
@@ -1185,6 +1198,7 @@ aside {
     .textevignette {
         font-size: 21px;
         padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .hebergement{
@@ -1192,6 +1206,7 @@ aside {
         box-shadow: 4px 5px 1px #ededed
         ;
         padding-bottom: 4rem;
+        padding-right: 0px;
     }
 
     .petit {
@@ -1201,8 +1216,8 @@ aside {
 
     #imgvignette2 {
         
-        width: 25rem;
-        height: 9rem;
+        width: 100%;
+        height: 70%;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
 
@@ -1215,8 +1230,8 @@ aside {
 
     #imgvignette3 {
         
-        width: 25rem;
-        height: 9rem;
+        width: 100%;
+    height: 70%;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
 
@@ -1229,8 +1244,8 @@ aside {
 
     #imgvignette4 {
         
-        width: 25rem;
-        height: 9rem;
+        width: 100%;
+    height: 70%; 
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
 
@@ -1243,8 +1258,8 @@ aside {
 
     #imgvignette5 {
         
-        width: 25rem;
-        height: 9rem;
+        width: 100%;
+    height: 70%;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
 
@@ -1257,8 +1272,8 @@ aside {
 
     #imgvignette6 {
         
-        width: 25rem;
-        height: 9rem;
+        width: 100%;
+        height: 70%;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
 
@@ -1281,14 +1296,14 @@ aside {
 
     #act1 {
       
-        width: 25rem;
+        width: 17rem;
         height: 10rem;
         margin-left: 1.5rem;
     }
 
 
     .title1 {
-        width: 25rem;
+        width: 17rem;
         position: relative;
         top: 9rem;
     }
@@ -1299,14 +1314,14 @@ aside {
 
     #act2 {
       
-        width: 25rem;
+        width: 17rem;
         height: 10rem;
         margin-left: 1.5rem;
     }
 
 
     #title2 {
-        width: 25rem;
+        width: 17rem;
         position: relative;
         top: 8.5rem;
     }
@@ -1321,14 +1336,14 @@ aside {
 
     #act3 {
       
-        width: 25rem;
+        width: 17rem;
         height: 10rem;
         margin-left: 1.5rem;
     }
 
 
     #title3 {
-        width: 25rem;
+        width: 17rem;
         position: relative;
         top: 4.5rem;
     }
@@ -1344,14 +1359,14 @@ aside {
 
     #act4 {
       
-        width: 25rem;
+        width: 17rem;
         height: 10rem;
         margin-left: 1.5rem;
     }
 
 
     #title4 {
-        width: 25rem;
+        width: 17rem;
         position: relative;
         top: 9rem;
     }
@@ -1362,14 +1377,14 @@ aside {
 
     #act5 {
       
-        width: 25rem;
+        width: 17rem;
         height: 10rem;
         margin-left: 1.5rem;
     }
 
 
     #title5 {
-        width: 25rem;
+        width: 17rem;
         position: relative;
         top: 8.5rem;
     }
@@ -1384,17 +1399,58 @@ aside {
 
     #act6 {
       
-        width: 25rem;
+        width: 17rem;
         height: 10rem;
         margin-left: 1.5rem;
     }
 
 
     #title6 {
-        width: 25rem;
+        width: 17rem;
         position: relative;
         top: 4.5rem;
     }
 
 
 }
+
+
+
+@media all and (max-width: 892px){
+    #filtre4{
+    margin-top: 37px;
+    
+
+    }
+    }
+
+    @media all and (max-width: 414px){
+        nav ul{
+        position: relative;
+        right: 15%;;
+        
+    
+        }
+        }
+    
+        @media all and (max-width: 394px){
+        #filtre2 {
+            margin-top: 36px;
+        }
+    }
+    @media all and (max-width: 414px){
+    nav ul {
+        position: relative;
+        right: 15%;
+    }
+}
+
+@media all and (max-width: 358px){
+    nav ul {
+        position: relative;
+        bottom: 13rem;
+    }
+}
+
+
+
