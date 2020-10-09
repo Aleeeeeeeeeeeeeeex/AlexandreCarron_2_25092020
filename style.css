@@ -14,7 +14,7 @@ html, body {
 
 header {
     
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 section {
@@ -1448,9 +1448,22 @@ aside {
 @media all and (max-width: 358px){
     nav ul {
         position: relative;
-        bottom: 13rem;
+        bottom: 11rem;
+        left: -3rem;
+        width: 114%;
     }
 }
+
+@media all and (max-width: 342px){
+    nav ul {
+        position: relative;
+        bottom: 13rem;
+        left: -4rem;
+        width: 114%;
+    }
+}
+
+
 
 
 
