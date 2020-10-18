@@ -40,6 +40,36 @@ h3 {
     padding-right: 18px;
 }
 
+@media screen and (max-width: 503px) {
+    #button-submit {
+        
+        display: none;
+    }
+    .form {
+     width: 35%;   
+    }
+    }
+
+#button-submit-mobile {
+    display: inline;
+    background-color: #0065FC;
+    border-radius: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: #ffffff;
+    z-index: 1;
+    margin-left: -11px;
+}
+
+@media screen and (min-width: 504px) {
+#button-submit-mobile {
+    
+    display: none;
+}
+}
+
 
 .form {
     padding: 7px;
@@ -51,6 +81,7 @@ h3 {
     position: relative;
     left: -1px;
     padding-bottom: 9px;
+    z-index: -1;
 }
 
 #filtre {
