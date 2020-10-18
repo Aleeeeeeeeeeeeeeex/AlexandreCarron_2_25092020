@@ -257,6 +257,12 @@ nav a:hover
     padding-bottom: 0.4rem;
     padding-top: 0.5rem;}
 
+#marseille a {
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+
 .hebergement {
     background-color: white;
     
