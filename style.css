@@ -208,13 +208,19 @@ nav a
     color: #181818;
     padding-bottom: 3px;
     text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: small;
 }
 
 nav a:hover
 {
     color: #0065FC;
-    border-top: 1px solid #0065FC;
+    border-top: 3px solid #0065FC;
     padding-top: 2.9rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: small;
 }
 
 
