@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Raleway';
-    src: url('fonts/Raleway-Regular.ttf') format('truetype');
+    src: url('fonts/Raleway-Regular.ttf') format('truetype'),;
+    
          
 }
 html, body {
@@ -38,6 +39,11 @@ h3 {
     border-top-right-radius: 11px;
     padding-right: 13px;
     padding-right: 18px;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    font-size: 10px;
 }
 
 @media screen and (max-width: 503px) {
@@ -274,6 +280,10 @@ nav a:hover
     
     border-radius: 18px;
     height: 12rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    box-shadow: 2px 2px 7px #aaa;
 }
 #imgvignette {
     background-image: url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
@@ -377,9 +387,10 @@ aside {
     background-color: white;
     margin-bottom: 2rem;
     display: flex;
-    
+    box-shadow: 2px 2px 7px #aaa;
     border-radius: 18px;
     padding: 4px;
+    box-shadow: 2px 2px 7px #aaa;
 
 }
 .vignette_aside img {
@@ -644,6 +655,7 @@ aside {
 
     .hebergement {
         margin-top: 1rem;
+        box-shadow: 2px 2px 7px #aaa;
     }
 
   }
@@ -794,6 +806,7 @@ aside {
     .vignette_aside {
         margin-left: 1rem;
         margin-right: 1rem;
+        box-shadow: 2px 2px 7px #aaa;
     }
     
 
@@ -813,8 +826,7 @@ aside {
 
     .hebergement{
         margin-bottom: 1rem;
-        box-shadow: 4px 5px 1px #ededed
-        ;
+        box-shadow: 2px 2px 7px #aaa;
         padding-bottom: 4rem;
     }
 
@@ -1262,8 +1274,7 @@ aside {
 
     .hebergement{
         margin-bottom: 1rem;
-        box-shadow: 4px 5px 1px #ededed
-        ;
+        box-shadow: 2px 2px 7px #aaa;
         padding-bottom: 4rem;
         
     }
