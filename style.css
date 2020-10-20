@@ -1,9 +1,8 @@
 @font-face {
     font-family: 'Raleway';
-    src: url('fonts/Raleway-Regular.ttf') format('truetype'),;
-    
-         
-}
+    src: url('fonts/Raleway-Regular.ttf'),
+         }
+
 html, body {
     margin:0;
     padding:0;
@@ -115,6 +114,30 @@ h3 {
     margin-left: 20px;
 
 }
+
+#filtre a:hover {
+
+    background-color: #F2F2F2;
+
+}
+
+.fa-money-bill-wave{
+    font-size: 15px;
+}
+
+.fa-child{
+    font-size: 15px;
+}
+.fa-heart{
+    font-size: 15px;
+}
+.fa-dog{
+    font-size: 15px;
+}
+.fa-map-marker-alt{
+    font-size: 16px;
+}
+
 .fa-money-bill-wave:before {
     color: #0065FC;
     background-color: #DEEBFF;
