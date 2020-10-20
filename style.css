@@ -45,6 +45,13 @@ h3 {
     font-size: 10px;
 }
 
+@media screen and (min-width: 1024px){
+    #flex_activite {
+        display: flex;
+    }
+}
+
+
 @media screen and (max-width: 503px) {
     #button-submit {
         
