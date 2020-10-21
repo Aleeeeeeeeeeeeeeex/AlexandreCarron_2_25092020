@@ -1543,6 +1543,15 @@ aside {
 @media all and (max-width: 342px){
     nav ul {
         position: relative;
+        
+        left: -4rem;
+        width: 114%;
+    }
+}
+
+@media all and (max-width: 335px){
+    nav ul {
+        position: relative;
         bottom: 13rem;
         left: -4rem;
         width: 114%;
