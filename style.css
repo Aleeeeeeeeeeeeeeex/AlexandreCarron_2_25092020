@@ -25,6 +25,14 @@ h3 {
     padding-left: 2rem;
 }
 
+#logo {
+    padding-top: 16px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
 .responsive {
     display: flex;
     width: 100%;
